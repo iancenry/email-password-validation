@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Login</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <header>Signup</header>
+            <form action="">
+                <div class="field">
+                    <div class="input-field email-field">
+                        <input type="email" placeholder="Enter your email" class="email">
+                    </div>
+                    <span class="error email-error">
+                        <img src="images/exclamation-circle.svg" alt="" class="error-icon">
+                        <p class="error-text">Please enter a valid email</p>
+                    </span>
+                </div>
+
+                <div class="field create-password">
+                    <div class="input-field">
+                        <input type="email" placeholder="Create Password" class="password">
+                        <img src="images/eye-slash.svg" alt="" class="show-hide">
+                    </div>
+                    <span class="error password-error">
+                        <img src="images/exclamation-circle.svg" alt="" class="error-icon">
+                        <p class="error-text">Please enter atleast 8 characters with numbers, symbols, small, and capital letters</p>
+                    </span>
+                </div>
+
+                <div class="field confirm-password">
+                    <div class="input-field">
+                        <input type="email" placeholder="Confirm Password" class="confirmPassword">
+                        <img src="images/eye-slash.svg" alt="" class="show-hide">
+                    </div>
+                    <span class="error cPassword-error">
+                        <img src="images/exclamation-circle.svg" alt="" class="error-icon">
+                        <p class="error-text">Password doesn't match</p>
+                    </span>
+                </div>
+
+                <div class="input-field btn">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>    
+        
+        <script src="index.js" defer></script>
+    </body>
+</html>
